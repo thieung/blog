@@ -1,0 +1,31 @@
+:root {
+  --primary-color: #196680;
+  --secondary-color: #80dfff;
+  --alternative-color: #ff9b33;
+}
+a {
+  color: var(--primary-color);
+}
+.dark a {
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--alternative-color);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--primary-color);
+}
+
+.dark h1,
+.dark h2,
+.dark h3 {
+  color: var(--secondary-color);
+}
+
+.dark .pagination a {
+  color: var(--primary-color);
+}
